@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1alpha1
 kind: Run
 metadata:
-  generateName: wait-run-
+  name: wait-run-eg
 spec:
   ref:
     apiVersion: example.dev/v0
